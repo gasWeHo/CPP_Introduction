@@ -3,11 +3,10 @@
 // Program.cpp
 // Entry Point for all Examples
 // 
-// https://github.com/pelocpp
-// https://peterloos.de
+// https://github.com/gasWeHo
 // =====================================================================================
 
-#pragma message("Collection of introductory C++ Code Examples - Copyright (C) 2019-2024 Peter Loos")
+#pragma message("Collection of introductory C++ Code Examples - Copyright (C) 2019-2024 Werner Hofmann")
 
 #include <iostream>
 
@@ -38,12 +37,12 @@ extern void testExercises();
 // entry point
 int main()
 {
-    std::cout << "[Collection of introductory C++ Code Examples - Copyright (C) 2019-2024 Peter Loos]" << std::endl;
+    std::cout << "[Collection of introductory C++ Code Examples - Copyright (C) 2019-2024 Werner Hofmann]" << std::endl;
 
     // main entry points code examples
     try
     {
-        //testHelloWorld();
+        testHelloWorld();
         //testClassesObjects();
         //testProceduralVsOOProgramming();
         //testClassesObjectsImproved();
